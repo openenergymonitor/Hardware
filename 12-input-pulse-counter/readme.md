@@ -1,6 +1,6 @@
 ## 12 Input Pulse Counter
 
-This is a design in development for a 12-input puse counter for interfacing with 12 utility meters.
+**This is a design in development for a 12-input puse counter for interfacing with 12 utility meters.**
 
 Many meters have pulse outputs, including electricity meters: single phase, 3-phase, import, export.. Gas meters, Water flow meters etc
 
