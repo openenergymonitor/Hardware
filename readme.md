@@ -1,30 +1,30 @@
 ## OpenEnergyMonitor Hardware
 
-Most of the hardware design's are currently hosted on solderpad:
+Most of the hardware design's are currently hosted on solderpad, but we are going to look at moving them to github for easier access along with the rest of the open source software code that is hosted here.
 
 [http://solderpad.com/openenergymon/](http://solderpad.com/openenergymon/)
 
 ### EmonTx
 
-- [EmonTx SMT v3](http://solderpad.com/openenergymon/emontxv3) - Latest generation of the emonTx Arduino compatible low power wireless energy monitoring node
-- [EmonTx Through-hole v2](http://solderpad.com/openenergymon/emontx) - A low-power wireless energy-monitoring node - Arduino compatibly
+- [emonTx SMT V3](http://solderpad.com/openenergymon/emontxv3) - Latest generation of the emonTx Arduino compatible low power wireless energy monitoring node
+- [emonTx Through-hole V2](http://solderpad.com/openenergymon/emontx) - A low-power wireless energy-monitoring node - Arduino compatibly
 
 ### EmonTx Shield
 
-- [EmonTx Shield SMT](http://solderpad.com/openenergymon/emontx-shield-smt) - An Arduino compatible energy monitoring shield
-- [EmonTx Shield Through-hole](http://solderpad.com/openenergymon/emontx-shield) - A wireless energy monitoring Arduino compatible shield
+- [emonTx Shield SMT](http://solderpad.com/openenergymon/emontx-shield-smt) - An Arduino compatible energy monitoring shield
+- [emonTx Shield Through-hole](http://solderpad.com/openenergymon/emontx-shield) - A wireless energy monitoring Arduino compatible shield
 
 ### EmonTH
 
-- [EmonTH](http://solderpad.com/openenergymon/emonth) - Temperature and humidity monitoring node
+- [emonTH](http://solderpad.com/openenergymon/emonth) - Temperature and humidity monitoring node
 
 ### EmonGLCD
 
-- [EmonGLCD](http://solderpad.com/openenergymon/emonglcd) - Wireless open-source graphical LCD display unit - Arduino compatible
+- [emonGLCD](http://solderpad.com/openenergymon/emonglcd) - Wireless open-source graphical LCD display unit - Arduino compatible
 
 ### RF12Pi Adapter Board
 
-- [https://github.com/mharizanov/RFM2Pi](https://github.com/mharizanov/RFM2Pi)
+- [https://github.com/openenergymonitor/RFM2Pi](https://github.com/openenergymonitor/RFM2Pi)
 
 ### Development
 
