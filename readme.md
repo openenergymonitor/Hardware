@@ -11,7 +11,7 @@ Most of the hardware design's are currently hosted on solderpad, but we are goin
 
 ### EmonTx Shield
 
-- [emonTx Shield SMT](http://solderpad.com/openenergymon/emontx-shield-smt) - An Arduino compatible energy monitoring shield
+- [emonTx Shield SMT](emontx-shield-smt) - An Arduino compatible energy monitoring shield
 - [emonTx Shield Through-hole](http://solderpad.com/openenergymon/emontx-shield) - A wireless energy monitoring Arduino compatible shield
 
 ### EmonTH
