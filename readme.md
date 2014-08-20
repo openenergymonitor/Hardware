@@ -28,5 +28,5 @@ Most of the hardware design's are currently hosted on solderpad:
 
 ### Development
 
-- [12 Input Pulse Counter](http://solderpad.com/openenergymon/12-input-pulse-counter/) - Design in development for a 12-input puse counter for interfacing with 12 utility meters. 12 Input Pulse counter development notes and documentation can be found on the main OpenEnergyMonitor site [here](http://openenergymonitor.org/emon/buildingblocks/12-input-pulse-counting)
+- [12 Input Pulse Counter](12-input-pulse-counter) - Design in development for a 12-input puse counter for interfacing with 12 utility meters. 12 Input Pulse counter development notes and documentation can be found on the main OpenEnergyMonitor site [here](http://openenergymonitor.org/emon/buildingblocks/12-input-pulse-counting)
 
