@@ -8,7 +8,7 @@ The pulse output may be a flashing LED or a switching relay (usually solid state
 
 In the case of an electricity meter a pulse output corresponds to a certain amount of energy passing through the meter (Kwhr/Wh). For single-phase domestic electricity meters (eg. Elster A100c) each pulse usually corresponds to 1 Wh (1000 pulses per kwh).  For the case of higher power meters (often three-phase) each pulse corresponds to a greater amount of energy eg. 2whr per pulse or even 10whr per pulse. 
 
-Full intorduction to pulse counting: [Building Blocks > Pulse counting](http://openenergymonitor.org/emon/buildingblocks/introduction-to-pulse-counting)
+Full introduction to pulse counting: [Building Blocks > Pulse counting](http://openenergymonitor.org/emon/buildingblocks/introduction-to-pulse-counting)
 
 The usual way to do pulse counting on the Arduino is to use the 2 Interrupt pins but this limits us to 2 meters. The following hardware design is for a 12 input arduino based pulse counter that runs firmware that samples all the arduino digital input pins at high sample rate. For full details including arduino source code see: [Building Blocks > 12 input pulse counting](http://openenergymonitor.org/emon/buildingblocks/12-input-pulse-counting)
 
