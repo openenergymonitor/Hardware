@@ -24,7 +24,7 @@ Most of the hardware design's are currently hosted on solderpad, but we are goin
 
 ### RF12Pi Adapter Board
 
-- [https://github.com/openenergymonitor/RFM2Pi](https://github.com/openenergymonitor/RFM2Pi)
+- [RF12Pi Adapter Board](RFM2Pi/readme.md)
 
 ### Development
 
