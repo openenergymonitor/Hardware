@@ -2,7 +2,7 @@
 
 **This is a design in development for a 12-input puse counter for interfacing with 12 utility meters.**
 
-Many meters have pulse outputs, including electricity meters: single phase, 3-phase, import, export.. Gas meters, Water flow meters etc
+*Many meters have pulse outputs, including electricity meters: single phase, 3-phase, import, export.. Gas meters, Water flow meters etc
 
 The pulse output may be a flashing LED or a switching relay (usually solid state) or both.
 
@@ -10,7 +10,7 @@ In the case of an electricity meter a pulse output corresponds to a certain amou
 
 Full introduction to pulse counting: [Building Blocks > Pulse counting](http://openenergymonitor.org/emon/buildingblocks/introduction-to-pulse-counting)
 
-The usual way to do pulse counting on the Arduino is to use the 2 Interrupt pins but this limits us to 2 meters. The following hardware design is for a 12 input arduino based pulse counter that runs firmware that samples all the arduino digital input pins at high sample rate. For full details including arduino source code see: [Building Blocks > 12 input pulse counting](http://openenergymonitor.org/emon/buildingblocks/12-input-pulse-counting)
+The usual way to do pulse counting on the Arduino is to use the 2 Interrupt pins but this limits us to 2 meters. The following hardware design is for a 12 input arduino based pulse counter that runs firmware that samples all the arduino digital input pins at high sample rate. For full details including arduino source code see: [Building Blocks > 12 input pulse counting](http://openenergymonitor.org/emon/buildingblocks/12-input-pulse-counting)*
 
 ### Eagle schematic and board file
 
