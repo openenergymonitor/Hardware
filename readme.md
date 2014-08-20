@@ -1,6 +1,6 @@
 ## OpenEnergyMonitor Hardware
 
-Most of the hardware design's are currently hosted on solderpad:
+Most of the hardware design's are currently hosted on solderpad, but we are going to look at moving them to github for easier access along with the rest of the open source software code that is hosted here.
 
 [http://solderpad.com/openenergymon/](http://solderpad.com/openenergymon/)
 
