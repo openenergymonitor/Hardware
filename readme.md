@@ -30,6 +30,8 @@ Most of the hardware design's are currently hosted on solderpad, but we are goin
 
 - [12 Input Pulse Counter](12-input-pulse-counter) - Design in development for a 12-input puse counter for interfacing with 12 utility meters. 12 Input Pulse counter development notes and documentation can be found on the main OpenEnergyMonitor site [here](http://openenergymonitor.org/emon/buildingblocks/12-input-pulse-counting)
 
+- [In-line energy monitor + Relay unit](relay-unit/readme.md)
+
 ### Open Hardware
 
 Hardware designs (schematics and CAD) files are licensed under the [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/) and follow the terms of the [OSHW (Open-source hardware) Statement of Principles 1.0.](http://freedomdefined.org/OSHW)
