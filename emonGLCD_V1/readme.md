@@ -18,6 +18,14 @@ Based on JeeLabs.org design.
 
 ![photo.jpg](photo.jpg)
 
+### Eagle schematic and board file
+
+Download both the schematic and board file and open in eagle, click on File > Switch to Board to navigate between schematic view and PCB Board view.
+
+- Schematic: [emonGLCD_V1.5.sch](emonGLCD_V1.5.sch)
+- Board: [emonGLCD_V1.5.brd](emonGLCD_V1.5.brd)
+- BOM: [bom.json](bom.json)
+
 
 ### Schematic
 
