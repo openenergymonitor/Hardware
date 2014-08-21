@@ -1,6 +1,6 @@
 ## emonTx Shield
 
-![photo.jpg](photo.jpg)
+![photo.png](photo.png)
 
 **A wireless energy monitoring Arduino compatible shield**
 
