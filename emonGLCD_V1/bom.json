@@ -1,0 +1,229 @@
+{
+	"items": [
+		{
+			"designator": "5VUSB",
+			"value": "",
+			"description": "USB Connectors"
+		},
+		{
+			"designator": "16MHZ",
+			"value": "16Mhz",
+			"description": "CRYSTAL"
+		},
+		{
+			"designator": "ANT",
+			"value": "",
+			"description": "THROUGH-HOLE PAD"
+		},
+		{
+			"designator": "BACKLIGHT",
+			"value": "",
+			"description": "Header 2"
+		},
+		{
+			"designator": "C1",
+			"value": "0.1µ",
+			"description": "CAPACITOR, European symbol"
+		},
+		{
+			"designator": "C2",
+			"value": "0.1µ",
+			"description": "CAPACITOR, European symbol"
+		},
+		{
+			"designator": "C3",
+			"value": "0.1µ",
+			"description": "CAPACITOR, European symbol"
+		},
+		{
+			"designator": "C4",
+			"value": "0.1µ",
+			"description": "CAPACITOR, European symbol"
+		},
+		{
+			"designator": "C5",
+			"value": "10µ",
+			"description": "POLARIZED CAPACITOR, European symbol"
+		},
+		{
+			"designator": "C6",
+			"value": "22pF",
+			"description": "CAPACITOR"
+		},
+		{
+			"designator": "C7",
+			"value": "22pF",
+			"description": "CAPACITOR"
+		},
+		{
+			"designator": "C8",
+			"value": "100n",
+			"description": "CAPACITOR"
+		},
+		{
+			"designator": "C9",
+			"value": "100n",
+			"description": "CAPACITOR"
+		},
+		{
+			"designator": "C10",
+			"value": "100n",
+			"description": "CAPACITOR"
+		},
+		{
+			"designator": "C11",
+			"value": "100n",
+			"description": "CAPACITOR"
+		},
+		{
+			"designator": "C12",
+			"value": "100n",
+			"description": "CAPACITOR"
+		},
+		{
+			"designator": "C13",
+			"value": "10u",
+			"description": "POLARIZED CAPACITOR, European symbol"
+		},
+		{
+			"designator": "C14",
+			"value": "10u",
+			"description": "POLARIZED CAPACITOR, European symbol"
+		},
+		{
+			"designator": "C15",
+			"value": "10u",
+			"description": "POLARIZED CAPACITOR, European symbol"
+		},
+		{
+			"designator": "C16",
+			"value": "10u",
+			"description": "POLARIZED CAPACITOR, European symbol"
+		},
+		{
+			"designator": "FTDI",
+			"value": "FTDI",
+			"description": "PIN HEADER"
+		},
+		{
+			"designator": "IC1",
+			"value": "ATMEGA 328",
+			"description": ""
+		},
+		{
+			"designator": "IC2",
+			"value": "MCP1702-33",
+			"description": "200 mA, Low Power Low Dropout Voltage Regulator"
+		},
+		{
+			"designator": "JP1",
+			"value": "BATT",
+			"description": "Header 2"
+		},
+		{
+			"designator": "JP2",
+			"value": "",
+			"description": "Header 3"
+		},
+		{
+			"designator": "JP3",
+			"value": "",
+			"description": "Header 3"
+		},
+		{
+			"designator": "P3",
+			"value": "JEEPORT",
+			"description": "PIN HEADER"
+		},
+		{
+			"designator": "PWR/SER/I2C",
+			"value": "",
+			"description": "Header 8"
+		},
+		{
+			"designator": "R1",
+			"value": "10k",
+			"description": "RESISTOR, European symbol"
+		},
+		{
+			"designator": "R2",
+			"value": "100",
+			"description": "RESISTOR, European symbol"
+		},
+		{
+			"designator": "R3",
+			"value": "100R",
+			"description": "RESISTOR, European symbol"
+		},
+		{
+			"designator": "R4",
+			"value": "LDR",
+			"description": "Photocell Also known as a CdS photoresistor. This is a low cost way to detect light levels. Resistance decreases with more incoming light. SparkFun SKU: SEN-09088"
+		},
+		{
+			"designator": "R5",
+			"value": "10k",
+			"description": "RESISTOR, European symbol"
+		},
+		{
+			"designator": "R6",
+			"value": "10k",
+			"description": "RESISTOR, European symbol"
+		},
+		{
+			"designator": "R9",
+			"value": "4.7K",
+			"description": "RESISTOR, European symbol"
+		},
+		{
+			"designator": "R10",
+			"value": "100",
+			"description": "RESISTOR, European symbol"
+		},
+		{
+			"designator": "S1",
+			"value": "",
+			"description": "OMRON SWITCH"
+		},
+		{
+			"designator": "S2",
+			"value": "",
+			"description": "OMRON SWITCH"
+		},
+		{
+			"designator": "S3",
+			"value": "",
+			"description": "OMRON SWITCH"
+		},
+		{
+			"designator": "SV7",
+			"value": "SPI/ISP",
+			"description": "PIN HEADER"
+		},
+		{
+			"designator": "TEMP",
+			"value": "DS18B20",
+			"description": "Transistor NPN"
+		},
+		{
+			"designator": "TRI-LED1",
+			"value": "",
+			"description": "DUO LED"
+		},
+		{
+			"designator": "TRI-LED2",
+			"value": "",
+			"description": "DUO LED"
+		},
+		{
+			"designator": "U$1",
+			"value": "RFM12B",
+			"description": ""
+		},
+		{
+			"designator": "U$2",
+			"value": "M20",
+			"description": "This is just like the LOCK variant in that the holes are staggared by 5 mil, but except for the last two holes.  They are not altered from the \"standard\" footprint layout.  This is used for a special purpose on the layout of our Graphic LCD Backpack.  Make sure you want to use this device before selecting it for you project!"
+		}
+	]
+}

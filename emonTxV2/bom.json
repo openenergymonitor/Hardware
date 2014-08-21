@@ -1,0 +1,264 @@
+{
+	"items": [
+		{
+			"designator": "5VUSB",
+			"value": "",
+			"description": "USB Connectors"
+		},
+		{
+			"designator": "16MHZ",
+			"value": "16Mhz",
+			"description": "CRYSTAL"
+		},
+		{
+			"designator": "AC9V",
+			"value": "POWER_JACKPTH_LOCK",
+			"description": "Power Jack"
+		},
+		{
+			"designator": "ANT",
+			"value": "",
+			"description": "THROUGH-HOLE PAD"
+		},
+		{
+			"designator": "C1",
+			"value": "0.1µ",
+			"description": "CAPACITOR, European symbol"
+		},
+		{
+			"designator": "C2",
+			"value": "0.1µ",
+			"description": "CAPACITOR, European symbol"
+		},
+		{
+			"designator": "C3",
+			"value": "0.1µ",
+			"description": "CAPACITOR, European symbol"
+		},
+		{
+			"designator": "C4",
+			"value": "0.1µ",
+			"description": "CAPACITOR, European symbol"
+		},
+		{
+			"designator": "C5",
+			"value": "10µ",
+			"description": "POLARIZED CAPACITOR, European symbol"
+		},
+		{
+			"designator": "C6",
+			"value": "22pF",
+			"description": "CAPACITOR"
+		},
+		{
+			"designator": "C7",
+			"value": "22pF",
+			"description": "CAPACITOR"
+		},
+		{
+			"designator": "C8",
+			"value": "10µ",
+			"description": "POLARIZED CAPACITOR, European symbol"
+		},
+		{
+			"designator": "C9",
+			"value": "10µ",
+			"description": "POLARIZED CAPACITOR, European symbol"
+		},
+		{
+			"designator": "C10",
+			"value": "10µ",
+			"description": "POLARIZED CAPACITOR, European symbol"
+		},
+		{
+			"designator": "C11",
+			"value": "10µ",
+			"description": "POLARIZED CAPACITOR, European symbol"
+		},
+		{
+			"designator": "CT1",
+			"value": "1501_03",
+			"description": "Truconnect Minature PCB jack socket 3.5mm"
+		},
+		{
+			"designator": "CT2",
+			"value": "1501_03",
+			"description": "Truconnect Minature PCB jack socket 3.5mm"
+		},
+		{
+			"designator": "CT3",
+			"value": "1501_03",
+			"description": "Truconnect Minature PCB jack socket 3.5mm"
+		},
+		{
+			"designator": "FTDI",
+			"value": "FTDI",
+			"description": "PIN HEADER"
+		},
+		{
+			"designator": "IC1",
+			"value": "ATMEGA 328",
+			"description": ""
+		},
+		{
+			"designator": "IC2",
+			"value": "MCP1702",
+			"description": "200 mA, Low Power Low Dropout Voltage Regulator"
+		},
+		{
+			"designator": "JP1",
+			"value": "BATT",
+			"description": "Header 2"
+		},
+		{
+			"designator": "LED",
+			"value": "",
+			"description": "LED"
+		},
+		{
+			"designator": "P1",
+			"value": "JEEPORT",
+			"description": "PIN HEADER"
+		},
+		{
+			"designator": "P2",
+			"value": "JEEPORT",
+			"description": "PIN HEADER"
+		},
+		{
+			"designator": "P3",
+			"value": "JEEPORT",
+			"description": "PIN HEADER"
+		},
+		{
+			"designator": "P4",
+			"value": "JEEPORT",
+			"description": "PIN HEADER"
+		},
+		{
+			"designator": "PWR/SER/I2C",
+			"value": "",
+			"description": "Header 8"
+		},
+		{
+			"designator": "Q2",
+			"value": "DS18B20",
+			"description": "Transistor NPN"
+		},
+		{
+			"designator": "R1",
+			"value": "10k",
+			"description": "RESISTOR, European symbol"
+		},
+		{
+			"designator": "R2",
+			"value": "470K",
+			"description": "RESISTOR, European symbol"
+		},
+		{
+			"designator": "R3",
+			"value": "18R",
+			"description": "RESISTOR, European symbol"
+		},
+		{
+			"designator": "R4",
+			"value": "470K",
+			"description": "RESISTOR, European symbol"
+		},
+		{
+			"designator": "R5",
+			"value": "470K",
+			"description": "RESISTOR, European symbol"
+		},
+		{
+			"designator": "R6",
+			"value": "18r",
+			"description": "RESISTOR, European symbol"
+		},
+		{
+			"designator": "R7",
+			"value": "470K",
+			"description": "RESISTOR, European symbol"
+		},
+		{
+			"designator": "R8",
+			"value": "10K",
+			"description": "RESISTOR, European symbol"
+		},
+		{
+			"designator": "R9",
+			"value": "4.7K",
+			"description": "RESISTOR, European symbol"
+		},
+		{
+			"designator": "R10",
+			"value": "100R",
+			"description": "RESISTOR, European symbol"
+		},
+		{
+			"designator": "R11",
+			"value": "470K",
+			"description": "RESISTOR, European symbol"
+		},
+		{
+			"designator": "R12",
+			"value": "470K",
+			"description": "RESISTOR, European symbol"
+		},
+		{
+			"designator": "R13",
+			"value": "100K",
+			"description": "RESISTOR, European symbol"
+		},
+		{
+			"designator": "R14",
+			"value": "10K",
+			"description": "RESISTOR, European symbol"
+		},
+		{
+			"designator": "R15",
+			"value": "470K",
+			"description": "RESISTOR, European symbol"
+		},
+		{
+			"designator": "R16",
+			"value": "18R",
+			"description": "RESISTOR, European symbol"
+		},
+		{
+			"designator": "R17",
+			"value": "470K",
+			"description": "RESISTOR, European symbol"
+		},
+		{
+			"designator": "SJ1",
+			"value": "",
+			"description": "Solder Jumper"
+		},
+		{
+			"designator": "SJ2",
+			"value": "",
+			"description": "Solder Jumper"
+		},
+		{
+			"designator": "SV7",
+			"value": "SPI/ISP",
+			"description": "PIN HEADER"
+		},
+		{
+			"designator": "U$1",
+			"value": "RFM12B",
+			"description": ""
+		},
+		{
+			"designator": "X3",
+			"value": "1501_03",
+			"description": "Truconnect Minature PCB jack socket 3.5mm"
+		},
+		{
+			"designator": "X4",
+			"value": "1501_03",
+			"description": "Truconnect Minature PCB jack socket 3.5mm"
+		}
+	]
+}
