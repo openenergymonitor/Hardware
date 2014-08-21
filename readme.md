@@ -1,9 +1,5 @@
 ## OpenEnergyMonitor Hardware
 
-Most of the hardware design's are currently hosted on solderpad, but we are going to look at moving them to github for easier access along with the rest of the open source software code that is hosted here.
-
-[http://solderpad.com/openenergymon/](http://solderpad.com/openenergymon/)
-
 ### EmonTx
 
 - [emonTx SMT V3](emonTxV3) - Latest generation of the emonTx Arduino compatible low power wireless energy monitoring node
@@ -12,11 +8,11 @@ Most of the hardware design's are currently hosted on solderpad, but we are goin
 ### EmonTx Shield
 
 - [emonTx Shield SMT](emontx-shield-smt) - An Arduino compatible energy monitoring shield
-- [emonTx Shield Through-hole](http://solderpad.com/openenergymon/emontx-shield) - A wireless energy monitoring Arduino compatible shield
+- [emonTx Shield Through-hole](emontx-shield-v1) - A wireless energy monitoring Arduino compatible shield
 
 ### EmonTH
 
-- [emonTH](http://solderpad.com/openenergymon/emonth) - Temperature and humidity monitoring node
+- [emonTH](emonTH) - Temperature and humidity monitoring node
 
 ### EmonGLCD
 
@@ -35,3 +31,7 @@ Most of the hardware design's are currently hosted on solderpad, but we are goin
 ### Open Hardware
 
 Hardware designs (schematics and CAD) files are licensed under the [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/) and follow the terms of the [OSHW (Open-source hardware) Statement of Principles 1.0.](http://freedomdefined.org/OSHW)
+
+### Solderpad
+
+The hardware design above are also hosted on solderpad: [http://solderpad.com/openenergymon/](http://solderpad.com/openenergymon/)
