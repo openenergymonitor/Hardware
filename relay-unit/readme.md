@@ -22,6 +22,10 @@ Download schematic: [relay-unit-XRF.sch](atmega/relay-unit-XRF.sch)
 
 Download board file: [relay-unit-XRF.brd](atmega/relay-unit-XRF.brd)
 
+### IET Socket's and CT
+
+![SocketsCTs.jpg](SocketsCTs.jpg)
+
 ### Open Hardware
 
 Hardware designs (schematics and CAD) files are licensed under the [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/) and follow the terms of the [OSHW (Open-source hardware) Statement of Principles 1.0.](http://freedomdefined.org/OSHW)
