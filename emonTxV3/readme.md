@@ -8,7 +8,7 @@ The emonTx V3 is the latest generation of the open-source hardware Arduino compa
 [http://openenergymonitor.org/emon/modules/emonTxV3](http://openenergymonitor.org/emon/modules/emonTxV3)
 
 
-![photo.png](photo.png)
+![photo.jpg](photo.jpg)
 
 
 ### Schematic
