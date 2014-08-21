@@ -20,7 +20,7 @@ Most of the hardware design's are currently hosted on solderpad, but we are goin
 
 ### EmonGLCD
 
-- [emonGLCD](http://solderpad.com/openenergymon/emonglcd) - Wireless open-source graphical LCD display unit - Arduino compatible
+- [emonGLCD](emonGLCD_V1) - Wireless open-source graphical LCD display unit - Arduino compatible
 
 ### RF12Pi Adapter Board
 
