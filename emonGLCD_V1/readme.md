@@ -16,7 +16,7 @@ Based on JeeLabs.org design.
 [http://shop.openenergymonitor.com/displays/](http://shop.openenergymonitor.com/displays/)
 
 
-![photo.png](photo.png)
+![photo.jpg](photo.jpg)
 
 
 ### Schematic
