@@ -7,7 +7,7 @@ Most of the hardware design's are currently hosted on solderpad, but we are goin
 ### EmonTx
 
 - [emonTx SMT V3](emonTxV3) - Latest generation of the emonTx Arduino compatible low power wireless energy monitoring node
-- [emonTx Through-hole V2](emonTxV2) - A low-power wireless energy-monitoring node - Arduino compatibly
+- [emonTx Through-hole V2](emonTxV2) - A low-power wireless energy-monitoring node - Arduino compatible
 
 ### EmonTx Shield
 
