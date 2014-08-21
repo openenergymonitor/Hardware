@@ -2,6 +2,8 @@
 
 OpenEnergyMonitor hardware is open source hardware. This github repository hosts all the Eagle schematic and board files for the hardware units in addition to images for quick access.
 
+![oshw-logo-200-px.png](oshw-logo-200-px.png)
+
 ### EmonTx
 
 - [emonTx SMT V3](emonTxV3) - Latest generation of the emonTx Arduino compatible low power wireless energy monitoring node
