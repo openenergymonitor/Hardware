@@ -2,7 +2,7 @@
 
 OpenEnergyMonitor hardware is open source hardware. This github repository hosts all the Eagle schematic and board files for the hardware units in addition to images for quick access.
 
-<img src="oshw-logo-200-px.png" />
+<img src="oshw-logo-200-px.png" style="float:right" />
 
 ### EmonTx
 
