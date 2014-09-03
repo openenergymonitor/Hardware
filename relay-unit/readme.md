@@ -4,23 +4,13 @@
 
 ### Atmega through-hole version
 
-![schematic.png](atmega/schematic.png)
+![schematic.png](schematic.png)
 
-Download schematic: [relay-unit-atmega.sch](atmega/relay-unit-atmega.sch)
+Download schematic: [relay-unit.sch](relay-unit.sch)
 
-![board.png](atmega/board.png)
+![board.png](board.png)
 
-Download board file: [relay-unit-atmega.brd](atmega/relay-unit-atmega.brd)
-
-### XRF through-hole version (further developed)
-
-![schematic.png](xrf/schematic.png)
-
-Download schematic: [relay-unit-XRF.sch](atmega/relay-unit-XRF.sch)
-
-![board.png](xrf/board.png)
-
-Download board file: [relay-unit-XRF.brd](atmega/relay-unit-XRF.brd)
+Download board file: [relay-unit.brd](relay-unit.brd)
 
 ### IET Socket's and CT
 
