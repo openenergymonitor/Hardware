@@ -1,5 +1,7 @@
 ## RFM2Pi
 
+A collaboration between Martin Harizanov and OpenEnergyMonitor. Martin's origional repo: https://github.com/mharizanov/RFM2Pi/
+
 ### Schematic and board files: 
 
 See board folder
