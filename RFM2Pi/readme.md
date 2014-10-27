@@ -2,7 +2,7 @@
 
 ### Schematic and board files: 
 
-[https://github.com/openenergymonitor/RFM2Pi/tree/master/board/v2](https://github.com/openenergymonitor/RFM2Pi/tree/master/board/v2)
+See board folder
 
 ### Schematic
 
