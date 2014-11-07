@@ -127,7 +127,7 @@ Expansion</text>
 <text x="7.874" y="2.032" size="0.7366" layer="121" font="vector" rot="R90">harizanov.com
 OpenEnergyMonitor.org</text>
 <text x="7.112" y="29.21" size="1.3716" layer="121">RFM12Pi</text>
-<text x="6.985" y="28.194" size="0.7112" layer="121">V2.6</text>
+<text x="6.985" y="28.194" size="0.7112" layer="121">V2.5.3</text>
 <text x="1.905" y="15.24" size="0.6096" layer="121" font="vector">ISP PWR 3.3V</text>
 <text x="11.176" y="15.748" size="0.6096" layer="121">ATMEGA328
 </text>
@@ -2923,8 +2923,8 @@ design rules under a new name.</description>
 <wire x1="26.8093" y1="4.89" x2="27.7613" y2="5.842" width="0.2032" layer="1"/>
 <contactref element="ISP" pad="2"/>
 <wire x1="3.175" y1="17.78" x2="3.175" y2="17.399" width="0.254" layer="16"/>
-<wire x1="3.175" y1="17.399" x2="6.985" y2="13.589" width="0.3048" layer="16"/>
-<wire x1="6.985" y1="13.589" x2="8.0827" y2="13.589" width="0.3048" layer="16"/>
+<wire x1="3.175" y1="17.399" x2="6.985" y2="13.589" width="0.254" layer="16"/>
+<wire x1="6.985" y1="13.589" x2="8.0827" y2="13.589" width="0.254" layer="16"/>
 </signal>
 <signal name="GND" class="1">
 <contactref element="RFM12B" pad="GND"/>

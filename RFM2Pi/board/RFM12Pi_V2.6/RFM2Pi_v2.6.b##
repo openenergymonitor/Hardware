@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -71,7 +71,7 @@
 <layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="14" fill="1" visible="yes" active="yes"/>
-<layer number="122" name="_bsilk" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="122" name="_bsilk" color="14" fill="1" visible="no" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
@@ -153,6 +153,13 @@ OpenEnergyMonitor.org</text>
 Act
 LED
 </text>
+<text x="22.479" y="28.956" size="1.016" layer="27">2</text>
+<text x="27.813" y="28.829" size="1.016" layer="27">1</text>
+<text x="27.686" y="23.622" size="1.016" layer="27">5</text>
+<text x="27.813" y="21.082" size="1.016" layer="27">7</text>
+<text x="22.352" y="21.082" size="1.016" layer="27">8</text>
+<text x="27.686" y="16.383" size="1.016" layer="27">9</text>
+<text x="21.844" y="16.51" size="1.016" layer="27">10</text>
 </plain>
 <libraries>
 <library name="JeeLabs">
