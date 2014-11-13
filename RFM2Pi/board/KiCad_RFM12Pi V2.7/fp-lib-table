@@ -1,3 +1,4 @@
 (fp_lib_table
-  (lib (name RFM12B)(type KiCad)(uri /home/glyn/Documents/KiCad_test/rfm12lib.pretty)(options "")(descr ""))
+  (lib (name RFM12B)(type KiCad)(uri "/home/glyn/Dropbox/Energy Monitoring/Open Energy Monitor/GitHub/Hardware/RFM2Pi/board/KiCad_RFM12Pi V2.7/rfm12lib.pretty")(options "")(descr ""))
+  (lib (name ant)(type KiCad)(uri "/home/glyn/Dropbox/Energy Monitoring/Open Energy Monitor/GitHub/Hardware/RFM2Pi/board/KiCad_RFM12Pi V2.7/ant.pretty")(options "")(descr ""))
 )

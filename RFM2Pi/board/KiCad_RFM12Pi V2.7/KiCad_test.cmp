@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Sat 25 Oct 2014 17:36:35 BST
+Cmp-Mod V01 Created by Cvpcb 0.201411101246+5259~19~ubuntu14.04.1-product   date = Wed 12 Nov 2014 18:03:31 GMT
 
 BeginCmp
 TimeStamp = /544B8059;
@@ -67,28 +67,28 @@ BeginCmp
 TimeStamp = /544BE403;
 Reference = P2;
 ValeurCmp = CONN_01X01;
-IdModule  = Connect:PINTST;
+IdModule  = ant:PINTST;
 EndCmp
 
 BeginCmp
 TimeStamp = /544B8038;
 Reference = R1;
 ValeurCmp = 220R;
-IdModule  = Resistors_SMD:R_0603;
+IdModule  = SMD_Packages:SMD-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /544B853D;
 Reference = R2;
 ValeurCmp = 100K;
-IdModule  = Resistors_SMD:R_0603;
+IdModule  = SMD_Packages:SMD-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /544B8B28;
 Reference = R3;
 ValeurCmp = 10K;
-IdModule  = Resistors_SMD:R_0603;
+IdModule  = SMD_Packages:SMD-0603;
 EndCmp
 
 BeginCmp
