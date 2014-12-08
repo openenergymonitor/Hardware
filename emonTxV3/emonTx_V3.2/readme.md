@@ -1,11 +1,15 @@
-# emonTx V3
-The emonTx V3 is the latest generation of the open-source hardware Arduino compatiable emonTx low power wireless energy monitoring node. The unit has been totally re-designed using surface mount (SMT) electronics to enable automated pre-assembled manufacture here in the UK.
+# emonTx V3.2
+
+emonTx low power wireless energy monitoring node. 
 
 
 [http://shop.openenergymonitor.com/emontx-v3/]([http://shop.openenergymonitor.com/emontx-v3/])
 
 
 [http://openenergymonitor.org/emon/modules/emonTxV3](http://openenergymonitor.org/emon/modules/emonTxV3)
+
+
+[http://wiki.openenergymonitor.org/index.php?title=EmonTx_V3](http://wiki.openenergymonitor.org/index.php?title=EmonTx_V3)
 
 
 ![photo.jpg](photo.jpg)
