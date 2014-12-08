@@ -16,13 +16,13 @@ The emonTx V3.4 is the latest generation of the open-source hardware Arduino com
 
 ### Schematic
 
-![schematic.png](schematic.png)
+![schematic.jpg](schematic.jpg)
 
 
 
 ### Board
 
-![board.png](board.png)
+![board.jpg](board.jpg)
 
 
 
