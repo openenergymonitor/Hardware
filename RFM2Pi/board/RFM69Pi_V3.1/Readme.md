@@ -18,7 +18,7 @@ Download schematic: [https://github.com/openenergymonitor/RFM2Pi/blob/master/boa
 
 ![RFM12Pi_V3.1_ISP_program.jpg](RFM12Pi_V3.1_ISP_program.jpg)
 
-![RFM12Pi_V3.1_bottom.JPG])RFM12Pi_V3.1_bottom.JPG)
+![RFM12Pi_V3.1_bottom.JPG](RFM12Pi_V3.1_bottom.JPG)
 
 ### Open Hardware
 
