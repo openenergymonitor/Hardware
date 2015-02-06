@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.0.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -163,13 +163,6 @@
 <text x="3.81" y="-2.54" size="1.016" layer="21" ratio="16">GND</text>
 <rectangle x1="-4.445" y1="-6.35" x2="4.445" y2="6.35" layer="43"/>
 </package>
-<package name="1,6/0,8">
-<description>&lt;b&gt;THROUGH-HOLE PAD&lt;/b&gt;</description>
-<circle x="0" y="0" radius="0.635" width="0.1524" layer="51"/>
-<pad name="1" x="0" y="0" drill="0.9" diameter="1.6002" shape="octagon"/>
-<text x="-0.762" y="1.016" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="0" y="0.6" size="0.0254" layer="27">&gt;VALUE</text>
-</package>
 </packages>
 <symbols>
 <symbol name="RFM12B">
@@ -187,13 +180,6 @@
 <pin name="GND" x="0" y="-15.24" length="short" direction="pwr" rot="R90"/>
 <pin name="IRQ" x="-12.7" y="-7.62" visible="pad" length="short" direction="oc"/>
 <pin name="FFS" x="12.7" y="2.54" visible="pad" length="short" rot="R180"/>
-</symbol>
-<symbol name="PAD">
-<wire x1="-1.016" y1="1.016" x2="1.016" y2="-1.016" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="-1.016" x2="1.016" y2="1.016" width="0.254" layer="94"/>
-<text x="-1.143" y="1.8542" size="1.778" layer="95">&gt;NAME</text>
-<text x="-1.143" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="P" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -213,22 +199,6 @@
 <connect gate="G$1" pin="SDO" pad="SDO"/>
 <connect gate="G$1" pin="SEL" pad="SEL"/>
 <connect gate="G$1" pin="VCC" pad="VDD"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="1,6/0,8" prefix="PAD" uservalue="yes">
-<description>&lt;b&gt;THROUGH-HOLE PAD&lt;/b&gt;</description>
-<gates>
-<gate name="P" symbol="PAD" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="1,6/0,8">
-<connects>
-<connect gate="P" pin="P" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -907,14 +877,6 @@ W = angled&lt;p&gt;
 <packages>
 <package name="FE05-2">
 <description>&lt;b&gt;FEMALE HEADER&lt;/b&gt;</description>
-<wire x1="-5.715" y1="3.048" x2="5.715" y2="3.048" width="0.1524" layer="21"/>
-<wire x1="6.35" y1="-2.413" x2="6.35" y2="2.413" width="0.1524" layer="21"/>
-<wire x1="-6.35" y1="-2.413" x2="-6.35" y2="2.413" width="0.1524" layer="21"/>
-<wire x1="-5.715" y1="-3.048" x2="5.715" y2="-3.048" width="0.1524" layer="21"/>
-<wire x1="-6.35" y1="2.413" x2="-5.715" y2="3.048" width="0.1524" layer="21" curve="-90"/>
-<wire x1="5.715" y1="3.048" x2="6.35" y2="2.413" width="0.1524" layer="21" curve="-90"/>
-<wire x1="5.715" y1="-3.048" x2="6.35" y2="-2.413" width="0.1524" layer="21" curve="90"/>
-<wire x1="-6.35" y1="-2.413" x2="-5.715" y2="-3.048" width="0.1524" layer="21" curve="90"/>
 <circle x="-5.08" y="-1.27" radius="0.127" width="0.4064" layer="51"/>
 <circle x="-5.08" y="1.27" radius="0.127" width="0.4064" layer="51"/>
 <circle x="-2.54" y="-1.27" radius="0.127" width="0.4064" layer="51"/>
@@ -945,8 +907,8 @@ W = angled&lt;p&gt;
 <pad name="8" x="2.54" y="-1.27" drill="0.9144" shape="octagon"/>
 <pad name="9" x="5.08" y="1.27" drill="0.9144" shape="octagon"/>
 <pad name="10" x="5.08" y="-1.27" drill="0.9144" shape="octagon"/>
-<text x="-2.54" y="3.429" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-6.35" y="-4.699" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-2.54" y="3.429" size="1.27" layer="26" ratio="10">&gt;NAME</text>
+<text x="-6.35" y="-4.699" size="1.27" layer="28" ratio="10">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -11520,6 +11482,48 @@ DIN A4, landscape with location and doc. field</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="discrete">
+<description>Discrete devices (Antenna, Arrrester, Thermistor)</description>
+<packages>
+<package name="PAD-01">
+<description>&lt;b&gt;PAD&lt;/b&gt;</description>
+<circle x="0" y="0" radius="0.889" width="0.762" layer="51"/>
+<pad name="1" x="0" y="0" drill="1.4" diameter="2.2" shape="octagon"/>
+<text x="-1.27" y="1.524" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-1.27" y="3.048" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+</package>
+</packages>
+<symbols>
+<symbol name="ANTENNA">
+<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<text x="-2.54" y="1.27" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="0" y="-5.08" visible="off" length="short" direction="out" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ANTENNA" prefix="ANT" uservalue="yes">
+<description>&lt;b&gt;Antenna&lt;/b&gt;</description>
+<gates>
+<gate name="A" symbol="ANTENNA" x="0" y="10.16"/>
+</gates>
+<devices>
+<device name="" package="PAD-01">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -11527,9 +11531,10 @@ DIN A4, landscape with location and doc. field</description>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0.2032" drill="0.2032">
-<clearance class="0" value="0.2032"/>
+<clearance class="0" value="0.205"/>
 </class>
 <class number="1" name="power" width="0.254" drill="0.254">
+<clearance class="0" value="0.205"/>
 <clearance class="1" value="0.254"/>
 </class>
 </classes>
@@ -11537,12 +11542,11 @@ DIN A4, landscape with location and doc. field</description>
 <part name="RFM12B-RFM69CW" library="JeeLabs" deviceset="RFM12B" device=""/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="ANT" library="JeeLabs" deviceset="1,6/0,8" device=""/>
-<part name="RASPBERRY-PI" library="con-lsta" deviceset="FE05-2" device=""/>
+<part name="GPIO_1" library="con-lsta" deviceset="FE05-2" device=""/>
 <part name="+3V8" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="LED1" library="led" deviceset="LED" device="SML0603"/>
-<part name="R4" library="adafruit" deviceset="R-US_" device="R0603" value="220R"/>
+<part name="R4" library="adafruit" deviceset="R-US_" device="R0603" value="1K"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="C4" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF"/>
 <part name="R1" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
@@ -11564,6 +11568,7 @@ DIN A4, landscape with location and doc. field</description>
 <part name="FRAME1" library="frames" deviceset="A4L-LOC" device=""/>
 <part name="R2" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
 <part name="C3" library="rcl" deviceset="C-EU" device="C0603" value="10uF"/>
+<part name="ANT1" library="discrete" deviceset="ANTENNA" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11573,8 +11578,7 @@ DIN A4, landscape with location and doc. field</description>
 <instance part="RFM12B-RFM69CW" gate="G$1" x="7.62" y="58.42"/>
 <instance part="+3V2" gate="G$1" x="7.62" y="91.44"/>
 <instance part="GND2" gate="1" x="7.62" y="35.56"/>
-<instance part="ANT" gate="P" x="25.4" y="53.34" rot="R180"/>
-<instance part="RASPBERRY-PI" gate="G$1" x="-66.04" y="116.84"/>
+<instance part="GPIO_1" gate="G$1" x="-66.04" y="116.84"/>
 <instance part="+3V8" gate="G$1" x="-48.26" y="114.3"/>
 <instance part="GND5" gate="1" x="-81.28" y="114.3"/>
 <instance part="LED1" gate="G$1" x="20.32" y="17.78"/>
@@ -11603,6 +11607,7 @@ DIN A4, landscape with location and doc. field</description>
 <instance part="FRAME1" gate="G$1" x="-152.4" y="-27.94"/>
 <instance part="R2" gate="G$1" x="-10.16" y="71.12" rot="R90"/>
 <instance part="C3" gate="G$1" x="33.02" y="58.42" rot="R180"/>
+<instance part="ANT1" gate="A" x="22.86" y="48.26" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -11622,7 +11627,7 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="C3" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="RASPBERRY-PI" gate="G$1" pin="2"/>
+<pinref part="GPIO_1" gate="G$1" pin="2"/>
 <wire x1="-58.42" y1="111.76" x2="-48.26" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="+3V8" gate="G$1" pin="+3V3"/>
 </segment>
@@ -11672,7 +11677,7 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="C3" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="RASPBERRY-PI" gate="G$1" pin="5"/>
+<pinref part="GPIO_1" gate="G$1" pin="5"/>
 <wire x1="-73.66" y1="116.84" x2="-81.28" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 </segment>
@@ -11711,7 +11716,7 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="GND4" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="RASPBERRY-PI" gate="G$1" pin="10"/>
+<pinref part="GPIO_1" gate="G$1" pin="10"/>
 <wire x1="-58.42" y1="121.92" x2="-30.48" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="-30.48" y1="121.92" x2="-30.48" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="GND7" gate="1" pin="GND"/>
@@ -11735,8 +11740,8 @@ DIN A4, landscape with location and doc. field</description>
 <net name="N$6" class="1">
 <segment>
 <pinref part="RFM12B-RFM69CW" gate="G$1" pin="ANT"/>
-<pinref part="ANT" gate="P" pin="P"/>
 <wire x1="20.32" y1="53.34" x2="22.86" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="ANT1" gate="A" pin="1"/>
 </segment>
 </net>
 <net name="RESET" class="0">
@@ -11809,7 +11814,7 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="IC1" gate="G$1" pin="PD1(TXD)"/>
 </segment>
 <segment>
-<pinref part="RASPBERRY-PI" gate="G$1" pin="9"/>
+<pinref part="GPIO_1" gate="G$1" pin="9"/>
 <wire x1="-73.66" y1="121.92" x2="-81.28" y2="121.92" width="0.1524" layer="91"/>
 <label x="-86.36" y="121.92" size="1.778" layer="95"/>
 </segment>
@@ -12015,7 +12020,7 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="IC1" gate="G$1" pin="PD0(RXD)"/>
 </segment>
 <segment>
-<pinref part="RASPBERRY-PI" gate="G$1" pin="7"/>
+<pinref part="GPIO_1" gate="G$1" pin="7"/>
 <wire x1="-73.66" y1="119.38" x2="-81.28" y2="119.38" width="0.1524" layer="91"/>
 <label x="-86.36" y="119.38" size="1.778" layer="95"/>
 </segment>
@@ -12056,7 +12061,7 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="C5" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="RASPBERRY-PI" gate="G$1" pin="8"/>
+<pinref part="GPIO_1" gate="G$1" pin="8"/>
 <wire x1="-58.42" y1="119.38" x2="-48.26" y2="119.38" width="0.1524" layer="91"/>
 <label x="-48.26" y="119.38" size="1.778" layer="95"/>
 </segment>
