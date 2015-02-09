@@ -1,6 +1,6 @@
 ## RFM2Pi V3
 
-Updated RFM12B / RFM69CW expansion board for the Raspberry Pi with ATmega328 I/OI broken out
+Updated RFM12B / RFM69CW expansion board for the Raspberry Pi with ATmega328 I/O broken out
 
 http://wiki.openenergymonitor.org/index.php?title=RFM12Pi_V3
 
