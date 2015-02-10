@@ -2,25 +2,24 @@
 
 Updated RFM12B / RFM69CW expansion board for the Raspberry Pi with ATmega328 I/O broken out
 
-http://wiki.openenergymonitor.org/index.php?title=RFM12Pi_V3
-
-### Schematic and board files: 
-
-See board folder
-
-### Schematic
-
-![RFm69PiV3.1_sch.png](RFm69PiV3.1_sch.png)
-
-Download schematic: [https://github.com/openenergymonitor/RFM2Pi/blob/master/board/v2/RFM2Pi_v2.6.sch](https://github.com/openenergymonitor/RFM2Pi/blob/master/board/v2/RFM2Pi_v2.6.sch)
+http://wiki.openenergymonitor.org/index.php?title=RFM69Pi_V3
 
 ### Board
 
 ![RFm69PiV3.1_sch.png](RFm69PiV3.1_brd.png)
 
-![RFM12Pi_V3.1_ISP_program.jpg](RFM12Pi_V3.1_ISP_program.jpg)
+![RFM69Pi_RasPi.JPG](RFM69Pi_RasPi.JPG)
 
 ![RFM12Pi_V3.1_bottom.JPG](RFM12Pi_V3.1_bottom.JPG)
+
+
+### Schematic and board: 
+
+
+![RFm69PiV3.1_sch.png](RFm69PiV3.1_sch.png)
+
+![RFm69PiV3.1_brd.jpg](RFm69PiV3.1_brd.jpg)
+
 
 ### Open Hardware
 
