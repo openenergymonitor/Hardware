@@ -6,8 +6,6 @@ http://wiki.openenergymonitor.org/index.php?title=RFM69Pi_V3
 
 ### Board
 
-![RFm69PiV3.1_sch.png](RFm69PiV3.1_brd.png)
-
 ![RFM69Pi_RasPi.JPG](RFM69Pi_RasPi.JPG)
 
 ![RFM12Pi_V3.1_bottom.JPG](RFM12Pi_V3.1_bottom.JPG)
