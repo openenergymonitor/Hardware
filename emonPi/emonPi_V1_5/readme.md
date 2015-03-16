@@ -1,11 +1,10 @@
 ## emonPi V1.5
 
-![photo.png](photo.png)
-
 **Raspberry Pi Energy Monitoring Shield**
 
-
 Technical Documentation: [http://wiki.openenergymonitor.org/index.php?title=EmonPi](http://wiki.openenergymonitor.org/index.php?title=EmonPi)
+
+![photo.png](photo.png)
 
 
 ### Schematic
