@@ -17561,7 +17561,6 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <part name="R9" library="rcl" deviceset="R-EU_" device="0204/7" value="4.7K"/>
 <part name="Q2" library="SparkFun" deviceset="TRANSISTOR_NPN" device="TO92" value="DS18B20"/>
 <part name="SJ2" library="SparkFun" deviceset="SOLDERJUMPER_2WAY-OLD" device="S"/>
-<part name="JP1" library="SparkFun" deviceset="M06" device="SIP"/>
 </parts>
 <sheets>
 <sheet>
@@ -17597,9 +17596,9 @@ for higher current draw</text>
 <text x="58.42" y="109.22" size="1.778" layer="91">VOLTAGE</text>
 <text x="58.42" y="106.68" size="1.778" layer="91">CT1</text>
 <text x="58.42" y="104.14" size="1.778" layer="91">CT2</text>
-<text x="58.42" y="101.6" size="1.778" layer="91">DS18B20</text>
-<text x="58.42" y="99.06" size="1.778" layer="91">TERMINAL</text>
-<text x="58.42" y="96.52" size="1.778" layer="91">TERMINAL</text>
+<text x="58.42" y="101.6" size="1.778" layer="91">NC</text>
+<text x="58.42" y="99.06" size="1.778" layer="91">NC</text>
+<text x="58.42" y="96.52" size="1.778" layer="91">NC</text>
 <text x="58.42" y="86.36" size="1.778" layer="91">RX</text>
 <text x="58.42" y="83.82" size="1.778" layer="91">TX</text>
 <text x="58.42" y="81.28" size="1.778" layer="91">RFM IRQ</text>
@@ -17735,8 +17734,7 @@ for higher current draw</text>
 <attribute name="VALUE" x="207.518" y="-8.89" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="Q2" gate="G$1" x="220.98" y="-15.24"/>
-<instance part="SJ2" gate="G$1" x="223.52" y="2.54" rot="R90"/>
-<instance part="JP1" gate="G$1" x="304.8" y="172.72" rot="R180"/>
+<instance part="SJ2" gate="G$1" x="231.14" y="-2.54" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -17860,12 +17858,6 @@ for higher current draw</text>
 <segment>
 <pinref part="Q2" gate="G$1" pin="E"/>
 <wire x1="223.52" y1="-20.32" x2="223.52" y2="-27.94" width="0.1524" layer="91"/>
-<label x="226.06" y="-27.94" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="JP1" gate="G$1" pin="6"/>
-<wire x1="299.72" y1="165.1" x2="294.64" y2="165.1" width="0.1524" layer="91"/>
-<label x="287.02" y="165.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D12/MISO" class="0">
@@ -18101,7 +18093,6 @@ for higher current draw</text>
 <pinref part="R9" gate="G$1" pin="2"/>
 <wire x1="218.44" y1="-15.24" x2="210.82" y2="-15.24" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="-15.24" x2="198.12" y2="-15.24" width="0.1524" layer="91"/>
-<label x="195.58" y="-12.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ADC4" class="0">
@@ -18115,11 +18106,6 @@ for higher current draw</text>
 <wire x1="302.26" y1="147.32" x2="297.18" y2="147.32" width="0.1524" layer="91"/>
 <label x="297.18" y="147.32" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="JP1" gate="G$1" pin="2"/>
-<wire x1="299.72" y1="175.26" x2="294.64" y2="175.26" width="0.1524" layer="91"/>
-<label x="287.02" y="175.26" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="ADC5" class="0">
 <segment>
@@ -18131,11 +18117,6 @@ for higher current draw</text>
 <pinref part="J1" gate="G$1" pin="2"/>
 <wire x1="302.26" y1="144.78" x2="297.18" y2="144.78" width="0.1524" layer="91"/>
 <label x="297.18" y="144.78" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="JP1" gate="G$1" pin="1"/>
-<wire x1="299.72" y1="177.8" x2="294.64" y2="177.8" width="0.1524" layer="91"/>
-<label x="287.02" y="177.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D3" class="0">
@@ -18149,11 +18130,6 @@ for higher current draw</text>
 <wire x1="302.26" y1="137.16" x2="297.18" y2="137.16" width="0.1524" layer="91"/>
 <label x="297.18" y="137.16" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="JP1" gate="G$1" pin="3"/>
-<wire x1="299.72" y1="172.72" x2="294.64" y2="172.72" width="0.1524" layer="91"/>
-<label x="287.02" y="172.72" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="D4" class="0">
 <segment>
@@ -18165,11 +18141,6 @@ for higher current draw</text>
 <pinref part="J2" gate="G$1" pin="1"/>
 <wire x1="302.26" y1="139.7" x2="297.18" y2="139.7" width="0.1524" layer="91"/>
 <label x="297.18" y="139.7" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="JP1" gate="G$1" pin="4"/>
-<wire x1="299.72" y1="170.18" x2="294.64" y2="170.18" width="0.1524" layer="91"/>
-<label x="287.02" y="170.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D5" class="0">
@@ -18281,11 +18252,6 @@ for higher current draw</text>
 <wire x1="132.08" y1="35.56" x2="132.08" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="P+1" gate="G$1" pin="3.3V"/>
 </segment>
-<segment>
-<pinref part="SJ2" gate="G$1" pin="1"/>
-<wire x1="218.44" y1="2.54" x2="213.36" y2="2.54" width="0.1524" layer="91"/>
-<label x="208.28" y="2.54" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="5V" class="1">
 <segment>
@@ -18308,16 +18274,6 @@ for higher current draw</text>
 <pinref part="J3" gate="G$1" pin="2"/>
 <wire x1="302.26" y1="152.4" x2="297.18" y2="152.4" width="0.1524" layer="91"/>
 <label x="297.18" y="152.4" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="SJ2" gate="G$1" pin="3"/>
-<wire x1="228.6" y1="2.54" x2="233.68" y2="2.54" width="0.1524" layer="91"/>
-<label x="233.68" y="2.54" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="JP1" gate="G$1" pin="5"/>
-<wire x1="299.72" y1="167.64" x2="294.64" y2="167.64" width="0.1524" layer="91"/>
-<label x="287.02" y="167.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DIG1" class="0">
@@ -18435,8 +18391,6 @@ for higher current draw</text>
 <wire x1="210.82" y1="-5.08" x2="223.52" y2="-5.08" width="0.1524" layer="91"/>
 <pinref part="Q2" gate="G$1" pin="C"/>
 <wire x1="223.52" y1="-5.08" x2="223.52" y2="-10.16" width="0.1524" layer="91"/>
-<pinref part="SJ2" gate="G$1" pin="2"/>
-<wire x1="223.52" y1="-5.08" x2="223.52" y2="-2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

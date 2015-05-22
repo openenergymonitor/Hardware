@@ -17597,9 +17597,9 @@ for higher current draw</text>
 <text x="58.42" y="109.22" size="1.778" layer="91">VOLTAGE</text>
 <text x="58.42" y="106.68" size="1.778" layer="91">CT1</text>
 <text x="58.42" y="104.14" size="1.778" layer="91">CT2</text>
-<text x="58.42" y="101.6" size="1.778" layer="91">DS18B20</text>
-<text x="58.42" y="99.06" size="1.778" layer="91">TERMINAL</text>
-<text x="58.42" y="96.52" size="1.778" layer="91">TERMINAL</text>
+<text x="58.42" y="101.6" size="1.778" layer="91">NC</text>
+<text x="58.42" y="99.06" size="1.778" layer="91">NC</text>
+<text x="58.42" y="96.52" size="1.778" layer="91">NC</text>
 <text x="58.42" y="86.36" size="1.778" layer="91">RX</text>
 <text x="58.42" y="83.82" size="1.778" layer="91">TX</text>
 <text x="58.42" y="81.28" size="1.778" layer="91">RFM IRQ</text>
