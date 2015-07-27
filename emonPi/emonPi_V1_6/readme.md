@@ -12,7 +12,7 @@ emonPi Hardware Change Log: [http://wiki.openenergymonitor.org/index.php?title=E
 
 ### Schematic
 
-![emonPi_V1.6_sch.png](semonPi_V1.6_sch.png)
+![emonPi_V1.6_sch.png](emonPi_V1.6_sch.png)
 
 ### Board
 
