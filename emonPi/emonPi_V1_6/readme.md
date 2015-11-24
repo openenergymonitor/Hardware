@@ -7,7 +7,9 @@ Technical Documentation: [http://wiki.openenergymonitor.org/index.php?title=Emon
 emonPi Hardware Change Log: [http://wiki.openenergymonitor.org/index.php?title=EmonPi#Hardware_Change_Log](http://wiki.openenergymonitor.org/index.php?title=EmonPi#Hardware_Change_Log)
 
 
-![photo.png](photo.png)
+
+<img src="photo.png" width="900">
+
 
 
 ### Schematic
