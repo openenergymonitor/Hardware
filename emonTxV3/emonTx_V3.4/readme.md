@@ -1,4 +1,5 @@
-# emonTx V3.4
+# emonTx V3.4.1
+
 The emonTx V3.4 is the latest generation of the open-source hardware Arduino compatiable emonTx low power wireless energy monitoring node. The unit has been totally re-designed using surface mount (SMT) electronics to enable automated pre-assembled manufacture here in the UK.
 
 
@@ -16,13 +17,13 @@ The emonTx V3.4 is the latest generation of the open-source hardware Arduino com
 
 ### Schematic
 
-![schematic.jpg](schematic.jpg)
+![schematic.png](schematic.png)
 
 
 
 ### Board
 
-![board.jpg](board.jpg)
+![board.png](board.png)
 
 
 
