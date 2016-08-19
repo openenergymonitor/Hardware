@@ -1,4 +1,4 @@
-# emonTx V3.4.1
+# emonTx V3.4
 
 The emonTx V3.4 is the latest generation of the open-source hardware Arduino compatiable emonTx low power wireless energy monitoring node. The unit has been totally re-designed using surface mount (SMT) electronics to enable automated pre-assembled manufacture here in the UK.
 
@@ -36,14 +36,17 @@ The emonTx V3.4 is the latest generation of the open-source hardware Arduino com
 - Pulse counting / terminal block IRQ changed from D2 IRQ0 to D3 IRQ1 since RFM12B now uses IRQ0
 - Changed MCP1700 3.3V regulator to MCP1702 3.3V regulator to allow for powering from higher voltages (12V max) over RJ45
 
-[http://shop.openenergymonitor.com/emontx-v3/]([http://shop.openenergymonitor.com/emontx-v3/])
+***
 
+## Links 
 
-[http://openenergymonitor.org/emon/modules/emonTxV3](http://openenergymonitor.org/emon/modules/emonTxV3)
+- [Purchase]([http://shop.openenergymonitor.com/emontx-v3/])
 
+- [User Guide](https://guide.openenergymonitor.org/setup/emontx)
 
-[http://wiki.openenergymonitor.org/index.php?title=EmonTx_V3.4](http://wiki.openenergymonitor.org/index.php?title=EmonTx_V3.4)
+- [Hardware Wiki Documentation](http://wiki.openenergymonitor.org/index.php?title=EmonTx_V3.4)
 
+***
 
 ![photo.jpg](photo.jpg)
 
