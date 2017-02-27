@@ -6,7 +6,7 @@
 
 An Arduino compatible energy monitoring shield, tested with Leonardo and Uno. With option for RFM12B wireless and DS18B20 temperature
 
-Documentation: [http://openenergymonitor.org/emon/emontxshield/smt](http://openenergymonitor.org/emon/emontxshield/smt)
+[Technical Documentation](https://wiki.openenergymonitor.org/index.php/EmonTx_Arduino_Shield)
 
 ### Eagle schematic and board file
 
