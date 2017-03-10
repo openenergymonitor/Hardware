@@ -4,6 +4,8 @@ OpenEnergyMonitor hardware is open source hardware. This github repository hosts
 
 ![oshw-logo-200-px.png](oshw-logo-200-px.png)
 
+**Update: most hardware designs have now been moved to dedicated repos, see individual folders**
+
 ### EmonTx
 
 - [emonTx SMT V3](emonTxV3) - Latest generation of the emonTx Arduino compatible low power wireless energy monitoring node
@@ -36,6 +38,3 @@ OpenEnergyMonitor hardware is open source hardware. This github repository hosts
 
 Hardware designs (schematics and CAD) files are licensed under the [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/) and follow the terms of the [OSHW (Open-source hardware) Statement of Principles 1.0.](http://freedomdefined.org/OSHW)
 
-### Solderpad
-
-The hardware design above are also hosted on solderpad: [http://solderpad.com/openenergymon/](http://solderpad.com/openenergymon/)

@@ -2,6 +2,8 @@
 
 **Note:** This is an untested design in the early stages of development and involves high voltages on the board. If you use this design please ensure you independently check its suitability and safety.
 
+***
+
 ### Atmega through-hole version
 
 ![schematic.png](schematic.png)

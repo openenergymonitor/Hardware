@@ -1,6 +1,8 @@
 ## EmonTx v2.5 Through Hole
 
-An update for the emonTx v2.
+**Update: This design was never manufactured or tested**
+
+***
 
 Main features:
 
